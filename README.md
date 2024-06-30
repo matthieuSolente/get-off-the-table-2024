@@ -1,4 +1,4 @@
-# get-off-the-table-2024
+# Get off the table email in 2024
 
 Based on Mark Robbins' work on the subject of coding emails without using tables, I tried to take the research a little further, adding some elements. 
 
