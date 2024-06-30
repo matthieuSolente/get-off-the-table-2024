@@ -29,13 +29,14 @@ In this template, I use :
 
 ### 3-Columns:
 
-The first reflex would be to center the entire email using 
+The first reflex would be to center the entire email using :
+
 the mso-element-left:center property; This works great for single column emails.
 
-But by applying the mso-element-wrap:no-wrap-beside properties to the blocks, they are floating and therefore would end up centered on each other.
+But if we want to create a columnar layout, by applying the mso-element-wrap:no-wrap-beside properties to the blocks, they float and eventually end up centered on each other.
 
 
-we therefore start by applying the mso-element-wrap:no-wrap-beside property to our blocks. These are found at the left end of the email.
+We therefore start by applying the mso-element-wrap:no-wrap-beside property to our blocks. These are found at the left end of the email.
 
 Then, we can reposition the blocks/columns horizontally using the mso-element-frame-hspace property, starting from the position: left: 0. 
 
