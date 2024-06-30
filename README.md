@@ -8,24 +8,24 @@ The major drawback of Outlook is that it does not recognize certain CSS properti
 
 In this template, I use : 
 
--the mso-faux absolute technique to create absolute positioning, 
--br clear="all" to separate elements vertically,
--multiple columns
--joint use of margin, padding and border to create internal margins for blocks
+- the mso-faux absolute technique to create absolute positioning, 
+- br clear="all" to separate elements vertically,
+- multiple columns
+- joint use of margin, padding and border to create internal margins for blocks
 
 1-For the absolute positioning of blocks, and the transformation of divs into tables in Outlook, I use frames here, with :
 
--mso-element-wrap:no-wrap-beside, 
--mso-left-element:center.
+- mso-element-wrap:no-wrap-beside, 
+- mso-left-element:center.
 
 
 2-To set the size of frames in Outlook and turn everything into tables, I use :
 
--mso-element-frame-width
+- mso-element-frame-width
 
 3- for blocs positionning in column, I use:
 
--mso-element-frame-hspace
+- mso-element-frame-hspace
 
 ### 3-Columns:
 
@@ -60,7 +60,8 @@ And for Outlook:
 HTML margin on p tag for left and right margins. (in Outlook this adds left and right margins on the enclosing div  
 Mso border and mso padding together on the p tag: (This is the only way to make the margins work here: border and padding are kept on the p tag, but this will also add the padding on the enclosing div, without that there is any visible effect.
 
-5-br
+### 5-br clear="all"
+
 As we can read it on the doc, Word inserts <br clear=ALL> after the Div element. This is necessary to turn off text wrapping in the browser display.without that, the frames are all nested inside each other and the layout becomes very complicated. A simple br and that solves the problem
 
 
