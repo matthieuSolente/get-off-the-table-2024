@@ -29,6 +29,8 @@ In this template, I use :
 
 ### 3-Columns:
 
+#### Fist example : file! index.html
+
 The first reflex would be to center the entire email using :
 
 the mso-element-left:center property; This works great for single column emails.
@@ -49,6 +51,23 @@ Visually it can work, as in the example template, but unfortunately the centerin
 This approximate centering has also the disadvantage of being broken at 120 or 200 DPI. 
 
 I have not yet found a solution to precisely and automatically center columns
+
+#### second example : file:index-2.html
+
+Another solution to make columns work in Outlook, is to use the mso-element-wrap:around properties.
+
+If we have for example 2 or more columns
+- define the width of the blocks using : mso-element-frame-width:xxxpx;
+- Set mso-element-wrap:around on the blocks, the last one doesn't need it.
+- for the gutter : mso-element-frame-hspace:xxxpx adds space on the left and right side, so you have to choose on which block you add it
+
+  In the case of multiple rows containing multiple columns, you can wrap each row with a mso-element-wrap:no-wrap-beside.
+
+  
+Thanks to the mso-element-wrap:around property, the elements will stick one after the other, thus creating columns.
+
+The problem of global column centering is still not resolved here.
+
 
 ### 4-Block margins
 
