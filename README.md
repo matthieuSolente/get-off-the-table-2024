@@ -59,7 +59,7 @@ Another solution to make columns work in Outlook, is to use the mso-element-wrap
 If we have for example 2 or more columns
 - define the width of the blocks using : mso-element-frame-width:xxxpx;
 - Set mso-element-wrap:around on the blocks, the last one doesn't need it.
-- for the gutter : mso-element-frame-hspace:xxxpx adds space on the left and right side, so you have to choose on which block you add it
+- for the gutter : mso-element-frame-hspace:xxxpx adds space on the left and right side, so you have to choose on which block you add it. You can also use mso-para-margin-left:xxpx.
 
   In the case of multiple rows containing multiple columns, you can wrap each row with a mso-element-wrap:no-wrap-beside.
 
