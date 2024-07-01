@@ -1,6 +1,6 @@
 # Get off the table email in 2024
 
-Based on Mark Robbins' work on the subject of coding emails without using tables, I tried at my level to push the research to find solutions to the problems mentioned on his [issue page](https://github.com/M-J-Robbins/get-off-the-table/issues)
+Based on Mark Robbins' incredible work on the subject of coding emails without using tables, I tried at my level to push the research to find solutions to the problems mentioned on his [issue page](https://github.com/M-J-Robbins/get-off-the-table/issues)
 
 The major drawback of Outlook is that it does not recognize certain CSS properties, especially when they are applied to a div. To overcome this problem we therefore use certain mso properties specific to Outlook which will allow us to define the size of the blocks and their positioning.
 
