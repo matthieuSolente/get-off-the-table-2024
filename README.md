@@ -54,9 +54,9 @@ I have not yet found a solution to precisely and automatically center columns
 
 #### second example : file:index-2.html
 
-Another solution to make columns work in Outlook, is to use the mso-element-wrap:around properties.
+Another solution to make columns work in Outlook, is to use the mso-element-wrap:around/auto property.
 
-If we have for example 2 or more columns
+If we have for example 2 or more columns:
 - define the width of the blocks using : mso-element-frame-width:xxxpx;
 - Set mso-element-wrap:around on the blocks, the last one doesn't need it.
 - for the gutter : mso-element-frame-hspace:xxxpx adds space on the left and right side, so you have to choose on which block you add it. You can also use mso-para-margin-left:xxpx.
@@ -64,7 +64,7 @@ If we have for example 2 or more columns
   In the case of multiple rows containing multiple columns, you can wrap each row with a mso-element-wrap:no-wrap-beside.
 
   
-Thanks to the mso-element-wrap:around property, the elements will stick one after the other, thus creating columns. We therefore no longer need to position them relative to a left:0 position which is much more practical
+Thanks to the mso-element-wrap:around or auto property, the elements will stick one after the other, thus creating columns. We therefore no longer need to position them relative to a left:0 position which is much more practical
 
 The problem of global column centering is still not resolved here.
 
