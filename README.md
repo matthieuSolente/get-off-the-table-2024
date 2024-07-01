@@ -63,7 +63,14 @@ Mso border and mso padding together on the p tag: (This is the only way to make 
 
 ### 5-br clear="all"
 
-As we can read it on the doc, Word inserts <br clear=ALL> after the Div element. This is necessary to turn off text wrapping in the browser display.without that, the frames are all nested inside each other and the layout becomes very complicated. A simple br and that solves the problem
+As we can read it on the doc, Word inserts <br clear=ALL> after the Div element. This is necessary to turn off text wrapping in the browser display.without that, the frames are all nested inside each other and the layout becomes very complicated. A simple br and that solves the problem.
+
+
+In one of his exchanges on [his page](https://github.com/M-J-Robbins/get-off-the-table/issues/3), I see that Mark and heyitstowler had also noted this code, which can be found in the Outlook rendered code:
+
+```
+<br style="mso-break-type:section-break">
+```
 
 
 References : 
