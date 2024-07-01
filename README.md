@@ -64,7 +64,7 @@ If we have for example 2 or more columns
   In the case of multiple rows containing multiple columns, you can wrap each row with a mso-element-wrap:no-wrap-beside.
 
   
-Thanks to the mso-element-wrap:around property, the elements will stick one after the other, thus creating columns.
+Thanks to the mso-element-wrap:around property, the elements will stick one after the other, thus creating columns. We therefore no longer need to position them relative to a left:0 position which is much more practical
 
 The problem of global column centering is still not resolved here.
 
