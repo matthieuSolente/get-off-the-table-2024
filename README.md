@@ -327,7 +327,7 @@ mso-height-rule:exactly">
 As you can see, mso-element-wrap:around adds the align="left" property to the table, and there is no way to override or replace this "left" value. We cannot therefore refocus the blocks which end up on the left of the window. We can't push them to the right either with mso-para-margin-left or mso-element-frame-hspace, this completely breaks the rendering. To date I have not found any solution to this problem.
 
 
-### How to create frame inner margins ?
+## How to create frame inner margins ?
 
 To add an internal margin to blocks.
 
@@ -338,7 +338,7 @@ And for Outlook:
 HTML margin on p tag for left and right margins. (in Outlook this adds left and right margins on the enclosing div  
 Mso border and mso padding together on the p tag: (This is the only way to make the margins work here: border and padding are kept on the p tag, but this will also add the padding on the enclosing div, without that there is any visible effect.
 
-### separate frames vertically ?
+## separate frames vertically ?
 
 As we can read it on the doc, Word inserts <br clear=ALL> after the Div element. This is necessary to turn off text wrapping in the browser display.without that, the frames are all nested inside each other and the layout becomes very complicated. A simple br and that solves the problem.
 
