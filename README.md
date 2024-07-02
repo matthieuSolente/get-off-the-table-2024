@@ -353,6 +353,9 @@ In one of his exchanges on [his page](https://github.com/M-J-Robbins/get-off-the
 ```
 
 
+I continue my research, just to try to get to the end, knowing that it will certainly lead nowhere :). The release of One Outlook is coming in a few years, and we will normally no longer need to find such hacks to code on Outlook
+
+
 #### References : 
 
 https://github.com/M-J-Robbins/get-off-the-table
